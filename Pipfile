@@ -1,0 +1,15 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+beautifulsoup4 = "==4.11.1"
+soupsieve = "==2.3.2.post1"
+google-cloud-pubsub = "*"
+googletrans = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.8"
